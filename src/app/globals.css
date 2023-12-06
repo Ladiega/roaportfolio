@@ -470,7 +470,7 @@ button {
   }
 
   .overlay-content p {
-    width: 220px;
+    width: 320px;
   }
 
   .overlay_img_global {
@@ -479,7 +479,7 @@ button {
 
 
   .overlay_img_container_1 img {
-    width: 230px;
+    width: 320px;
     height: 150px;
   }
 
@@ -488,7 +488,7 @@ button {
   }
 
   .overlay_img_container_2 img {
-    width: 111px;
+    width: 155px;
     height: 109px;
   }
 }
