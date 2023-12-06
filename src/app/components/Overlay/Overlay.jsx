@@ -35,7 +35,7 @@ const Overlay = ({ isOpen, onClose }) => {
             <h2>Project Name</h2>
             <div className='overlay_img_container'>image</div>
             <Image
-              src={overlayimg}
+              src={Overlayimg}
               alt='onerlay img'
               width={849}
               height={477}
