@@ -14,15 +14,10 @@ a {
 }
 
 .global_container {
-
-  max-width: 1440px;
   display: flex;
-
 }
 
-aside {
-  padding-right: 2rem;
-}
+
 
 h1 {
   margin-bottom: 1rem;
@@ -59,15 +54,6 @@ a li:hover {
 }
 
 
-section {
-  margin-left: 2rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1.5rem;
-}
-
-
-
 nav {
   margin-top: 1rem;
   display: flex;
@@ -92,6 +78,14 @@ nav p {
 .nav_icons_movile {
   display: none;
 }
+
+/* section {
+
+  margin-left: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+} */
 
 
 
@@ -155,7 +149,7 @@ li {
 .home_container {
   display: flex;
   justify-content: center;
-  margin: 2rem;
+  margin: 3rem;
   gap: 2rem;
 }
 
@@ -170,17 +164,7 @@ li {
   font-weight: 200;
 }
 
-/* .card_container {
-  width: 18.875em;
-  height: 12.813em;
-  background-color: #d9d9d9;
-  cursor: pointer;
-}
 
-.card_container:hover {
-  background-color: #bbbbbb;
-} 
-*/
 .imgframe {
   cursor: pointer;
 }
@@ -191,12 +175,12 @@ li {
 }
 
 .uxgallery_container {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
-.illustration_gallery_contanier {
-  margin-top: 2rem;
-}
+
+
+
 
 .overlay {
   display: flex;
@@ -207,7 +191,7 @@ li {
   left: 20vw;
   width: 80vw;
   height: 100vh;
-  /* background: rgba(0, 0, 0, 0.322); */
+  background: rgba(0, 0, 0, 0.322);
   background-color: white;
 
 
@@ -232,10 +216,12 @@ li {
 }
 
 .overlay-content p {
+  padding-bottom: 5rem;
   font-weight: 200;
   margin-top: 1.5rem;
   max-width: 849px;
   text-align: left;
+
 }
 
 button {
@@ -248,12 +234,6 @@ button {
   cursor: pointer;
 }
 
-/* .overlay_img_container {
-  min-height: 300px;
-  background-color: #d9d9d9;
-
-
-} */
 
 .overlay_img_global {
   display: flex;
@@ -261,11 +241,6 @@ button {
 
 }
 
-/* .overlay_img_container_1 {
-  width: 380px;
-  min-height: 300px;
-  background-color: #d9d9d9;
-} */
 
 .overlay_img_container_2 {
   display: flex;
@@ -273,11 +248,7 @@ button {
   gap: 0.5rem;
 }
 
-/* .overlay_img_container_2 div {
-  width: 300px;
-  min-height: 200px;
-  background-color: #d9d9d9;
-} */
+
 
 @media (max-width:1258px) {
 
@@ -433,16 +404,14 @@ button {
   }
 
   .card_container {
-    margin-top: 3rem;
+    margin-top: 0rem;
   }
 
   .card_container img {
     width: 335px;
   }
 
-  .illustration_gallery_contanier {
-    margin-top: 5rem;
-  }
+
 
   .overlay {
 

@@ -1,0 +1,21 @@
+.illustration_container {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+}
+
+@media (max-width:1258px) {
+  .illustration_container {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 3rem;
+  }
+
+}
+
+@media (max-width:834px) {
+  .illustration_container {
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+}

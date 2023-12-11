@@ -1,9 +1,9 @@
 'use client'
 import React, { useState } from "react"
-import Overlay from "../Overlay/Overlay"
+import OverlayIllustration from "../Overlayillustration/Overlayillustration";
 import Image from "next/image";
 import imgframe from "../../../../public/img/imgframe.png"
-import styles from "../../styles/uxGallery.module.css"
+import styles from "../../styles/illustrationGallery.module.css"
 
 export default function UxGallery() {
 
@@ -18,7 +18,7 @@ export default function UxGallery() {
   }
 
   return (
-    <div className={styles.uxgallery_container}>
+    <div className={`${styles.illustration_container} uxgallery_container`}>
 
       <div className='card_container' onClick={showOverlay}>
         <Image
@@ -26,7 +26,7 @@ export default function UxGallery() {
           src={imgframe}
           alt="imgframe"
         />
-        <Overlay isOpen={overlayOpen} onClose={closeOverlay} />
+        <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
       </div>
       <div className='card_container' onClick={showOverlay}>
         <Image
@@ -34,7 +34,7 @@ export default function UxGallery() {
           src={imgframe}
           alt="imgframe"
         />
-        <Overlay isOpen={overlayOpen} onClose={closeOverlay} />
+        <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
       </div>
       <div className='card_container' onClick={showOverlay}>
         <Image
@@ -42,7 +42,7 @@ export default function UxGallery() {
           src={imgframe}
           alt="imgframe"
         />
-        <Overlay isOpen={overlayOpen} onClose={closeOverlay} />
+        <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
       </div>
       <div className='card_container' onClick={showOverlay}>
         <Image
@@ -50,7 +50,7 @@ export default function UxGallery() {
           src={imgframe}
           alt="imgframe"
         />
-        <Overlay isOpen={overlayOpen} onClose={closeOverlay} />
+        <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
       </div>
       <div className='card_container' onClick={showOverlay}>
         <Image
@@ -58,7 +58,7 @@ export default function UxGallery() {
           src={imgframe}
           alt="imgframe"
         />
-        <Overlay isOpen={overlayOpen} onClose={closeOverlay} />
+        <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
       </div>
       <div className='card_container' onClick={showOverlay}>
         <Image
@@ -66,9 +66,9 @@ export default function UxGallery() {
           src={imgframe}
           alt="imgframe"
         />
-        <Overlay isOpen={overlayOpen} onClose={closeOverlay} />
+        <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
       </div>
-      
+
     </div>
   )
 }
